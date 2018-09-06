@@ -19,4 +19,5 @@ R v (P v Q)'              <=> (P v Q)' v R  Double Negation
 
 IF "x" are Transformers, "A(x)" are Autobots, "B(x)" are Decepticons
 "(∃x)A(x) ^ (∃x)B(x)" means that "some Transformers are Autobots and some Transformers are Decepticons"
-"(∃x)(A(x) ^ B(x))" would mean that "some Transformers are Autobots and Decepticons"
+"(∃x)(A(x) ^ B(x))" would mean that "some Transformers are Autobots and Decepticons",
+which isn't true unless someone's playing both sides!
