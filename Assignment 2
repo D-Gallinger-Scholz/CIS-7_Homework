@@ -1,0 +1,22 @@
+Part 1
+
+P -> Q <=> Q' -> P'
+P' v Q <=> Q'' v P' Implication *2
+P' v Q <=> Q v P'   Double Negation
+P' v Q <=> P' v Q   Commutative
+
+(P -> R) ^ (Q -> R)       <=> (P v Q) -> R
+(P' v R) ^ (Q' v R)       <=> (P v Q)' v R  Implication *3
+(P'' ^ R')' ^ (Q'' ^ R')' <=> (P v Q)' v R  De Morgan's Law *2
+(P ^ R')' ^ (Q ^ R')'     <=> (P v Q)' v R  Double Negation *2
+(R' ^ P)' ^ (R' ^ Q)'     <=> (P v Q)' v R  Commutative *2
+[(R' ^ P)'' v (R' ^ Q)'']'<=> (P v Q)' v R  De Morgan's Law
+[(R' ^ P) v (R' ^ Q)]'    <=> (P v Q)' v R  Double Negation *2
+[R' ^ (P v Q)]'           <=> (P v Q)' v R  Distributive in reverse
+R'' v (P v Q)'            <=> (P v Q)' v R  De Morgan's Law
+R v (P v Q)'              <=> (P v Q)' v R  Double Negation
+(P v Q)' v R              <=> (P v Q)' v R  Commutative
+
+IF "x" are Transformers, "A(x)" are Autobots, "B(x)" are Decepticons
+"(∃x)A(x) ^ (∃x)B(x)" means that "some Transformers are Autobots and some Transformers are Decepticons"
+"(∃x)(A(x) ^ B(x))" would mean that "some Transformers are Autobots and Decepticons"
