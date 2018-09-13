@@ -78,4 +78,18 @@ Part 5
 Assuming: p → (q ∧ r ), s → r , r → p
 Prove: s → q.
 ```
+Because "s" is true and "s -> r", then "r" is true (Modus Ponen)  
+Because "r" is true and "r -> p", then "p" is true (Modus Ponen)  
+Becuase "r" and "p" are true and "p -> (q ^ r)", then "(q ^ r)" is true (Modus Ponen)  
+Because "r" and "(q ^ r)" are true, then "q" must be true  
+Therefore, "s -> q"
 
+```
+Assuming: ¬(r ∨ s), ¬p → s, p → q. 
+Prove: q
+```
+
+Because "¬(r ∨ s)", then "¬r ^ ¬s" (De Morgan's Law)  
+And because "¬p -> s", then "¬s -> p" (Modus Tollens)  
+Then "¬r ^ ¬s" means "r" and "s" must be false and "¬s -> p", then "p" is true  
+Therefore, since "p" is true and "p -> q", then "q" is true (Modus Ponen)
