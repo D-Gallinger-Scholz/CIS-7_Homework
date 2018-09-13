@@ -35,11 +35,12 @@ Part 3
 ```
 (p ∧ q) → r , p → (q → r )
 ```
-
+<pre>
 (p ^ q) -> r  <=> p -> (q -> r)  
 (p ^ q)' v r  <=> p' v (q' v r)  Implication x3  
 (p' v q') v r <=> p' v (q' v r)  De Morgan's Law  
 p' v (q' v r) <=> p' v (q' v r)  Associative
+</pre>
 
 ```
 (q ∨ r ) → p, (q → p)∧(r → p)
