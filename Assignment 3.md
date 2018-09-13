@@ -91,5 +91,5 @@ Prove: q
 
 Because "¬(r ∨ s)", then "¬r ^ ¬s" (De Morgan's Law)  
 And because "¬p -> s", then "¬s -> p" (Modus Tollens)  
-Then "¬r ^ ¬s" means "r" and "s" must be false and "¬s -> p", then "p" is true  
+Then "¬r ^ ¬s" means "r" and "s" must both be false and "¬s -> p", then "p" is true  
 Therefore, since "p" is true and "p -> q", then "q" is true (Modus Ponen)
