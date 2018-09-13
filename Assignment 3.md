@@ -13,4 +13,39 @@ Part 2
 | T | T | F  | F  |T         |T        |T               |T
 | T | F | F  | T  |F         |T        |F               |T
 | F | T | T  | F  |T         |T        |T               |T
-| F | F | T  | T  |T         |F        |F               |F
+| F | F | T  | T  |T         |F        |T               |T
+
+This is a tautology!
+
+```
+ ((A → B)∧(B → ¬A)) → A
+```
+
+| A | B | ¬A | A -> B | B -> ¬A | ((A -> B)^(B -> ¬A) | ((A -> B)^((B -> ¬A)) -> A
+|---|---|--- |---     |---      |---                  |---             
+| T | T | F  | T      | F       | F                   | T
+| T | F | F  | F      | T       | F                   | T
+| F | T | T  | T      | T       | T                   | F
+| F | F | T  | T      | T       | T                   | F
+
+This is neither a tautology nor is it a contradiction!
+
+Part 3
+
+```
+(p ∧ q) → r , p → (q → r )
+```
+
+(p ^ q) -> r  <=> p -> (q -> r)
+(p ^ q)' v r  <=> p' v (q' v r)  Implication x3
+(p' v q') v r <=> p' v (q' v r)  De Morgan's Law
+p' v (q' v r) <=> p' v (q' v r)  Associative
+
+```
+(q ∨ r ) → p, (q → p)∧(r → p)
+```
+
+(q v r) -> p      <=> (q -> p)^(r -> p)
+(q v r)' v p      <=> (q' v p)^(r' v p)  Implication x3
+(q' ^ r') v p     <=> (q' v p)^(r' v p)  De Morgan's Law
+(q' v p)^(r' v p) <=> (q' v p)^(r' v p)  Distributive
