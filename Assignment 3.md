@@ -79,4 +79,3 @@ Assuming: p → (q ∧ r ), s → r , r → p
 Prove: s → q.
 ```
 
-
