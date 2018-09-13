@@ -65,3 +65,11 @@ Part 4
 ```
 ∃x∀y(City(x)^Traveler(y)^Lives(y,x)) -> ¬Loves(y,x)
 
+Part 5
+
+```
+Assuming: p → (q ∧ r ), s → r , r → p
+Prove: s → q.
+```
+
+
