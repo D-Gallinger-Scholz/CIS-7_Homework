@@ -49,3 +49,7 @@ p' v (q' v r) <=> p' v (q' v r)  Associative
 (q v r)' v p      <=> (q' v p)^(r' v p)  Implication x3  
 (q' ^ r') v p     <=> (q' v p)^(r' v p)  De Morgan's Law  
 (q' v p)^(r' v p) <=> (q' v p)^(r' v p)  Distributive
+
+Part 4
+
+
