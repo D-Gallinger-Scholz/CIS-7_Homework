@@ -45,11 +45,12 @@ p' v (q' v r) <=> p' v (q' v r)  Associative
 ```
 (q ∨ r ) → p, (q → p)∧(r → p)
 ```
-
+<pre>
 (q v r) -> p      <=> (q -> p)^(r -> p)  
 (q v r)' v p      <=> (q' v p)^(r' v p)  Implication x3  
 (q' ^ r') v p     <=> (q' v p)^(r' v p)  De Morgan's Law  
 (q' v p)^(r' v p) <=> (q' v p)^(r' v p)  Distributive
+</pre>
 
 Part 4
 
