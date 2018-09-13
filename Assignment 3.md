@@ -54,4 +54,8 @@ p' v (q' v r) <=> p' v (q' v r)  Associative
 
 Part 4
 
+```
+∃x∀y∀z(City(x)∧Traveler(y)∧Lives(z,x)) → (Loves(y,x)∧ ¬Loves(z,x))
+```
 
+"All travelers love the cities they visit while everyone who lives there does not."
