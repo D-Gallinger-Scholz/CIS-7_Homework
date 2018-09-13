@@ -65,7 +65,7 @@ Part 4
 ∃x∀y∀z(City(x)∧Traveler(y)∧Lives(z,x)) → (Loves(y,x)∧ ¬Loves(z,x))
 ```
 
-"All travelers love the cities they visit but their residents don't."
+"There are some cities that all travelers love but their residents don't."
 
 ```
 “No traveler loves the city they live in.”
