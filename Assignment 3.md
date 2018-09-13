@@ -1,7 +1,14 @@
 Part 1
 
-(M -> H)^(S -> C) means "If mathematics is easy then homework is done and if it is sunny then camping is fun."  
-“Mathematics is easy or camping is fun, as long as it is sunny and the homework is done.” means (S^H) -> (MvC)
+```
+(M -> H)^(S -> C)
+```
+"If mathematics is easy then homework is done and if it is sunny then camping is fun." 
+
+```
+“Mathematics is easy or camping is fun, as long as it is sunny and the homework is done.”
+```
+(S^H) -> (MvC)
 
 Part 2
 ```
