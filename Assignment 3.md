@@ -59,3 +59,9 @@ Part 4
 ```
 
 "All travelers love the cities they visit while everyone who lives there does not."
+
+```
+“No traveler loves the city they live in.”
+```
+∃x∀y(City(x)^Traveler(y)^Lives(y,x)) -> ¬Loves(y,x)
+
