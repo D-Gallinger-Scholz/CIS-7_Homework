@@ -8,7 +8,7 @@ Part 1
 ```
 “Mathematics is easy or camping is fun, as long as it is sunny and the homework is done.”
 ```
-(S^H) -> (MvC)
+(S ^ H) -> (M v C)
 
 Part 2
 ```
