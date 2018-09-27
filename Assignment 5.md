@@ -22,7 +22,7 @@ Now substitute p = 2q back into √2 = p/q:
 - √2 = 2q/q
 - √2 = 2
 
-The statement '√2 = 2' is false, so √2 is not rational. Therefore the negation of this statement is true and √2 is irrational.
+The statement "√2 = 2" is false, so √2 is not rational. Therefore the negation of this statement is true and √2 is irrational.
 
 ```
 If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.
