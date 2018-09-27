@@ -5,6 +5,7 @@ Show that the square root of 2 is irrational.
 ```
 
 Contradiction:
+
 Irrational numbers are any numbers that cannot be expressed as a ratio of two integers, so assume that √2 is rational.
 
 - √2 = p/q
