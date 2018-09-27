@@ -29,6 +29,7 @@ If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect
 ```
  
 Exhaustive:
+
 - When n = 25, √n = 5 and n can be written as the sum of 16 (4^2) and 9 (3^2)
 - When n = 100, √n = 10 and n can be written as the sum of 64 (8^2) and 36 (6^2)
 - When n = 169, √n = 13 and n can be written as the sum of 144 (12^2) and 25 (5^2)
@@ -37,7 +38,7 @@ Exhaustive:
 The sum of two odd integers is even.
 ```
 
-Assuming the Antecedent:
+Assume the Antecedent:
 
 Let there be two odd integers, x = 2m + 1 and y = 2n + 1:
 - x + y = 2m + 2n + 2
