@@ -89,12 +89,12 @@ Part 2
 Prove by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
 ```
 
-- 1. Base case: n = 1; 4\*1 - 3 = 1, 1(2\*1 - 1) = 1(1) = 1
-- 2. Test for n + 1: 
+1) Base case: n = 1; 4\*1 - 3 = 1, 1(2\*1 - 1) = 1(1) = 1
+2) Test for n + 1: 
  - n(2n - 1) + (4(n + 1) - 3) = (n + 1)(2(n + 1) - 1)
  - 2n^2 - n + 4n + 4 - 3 = (n + 1)(2n + 1)
  - 2n^2 +3n + 1 = 2n^2 + 3n + 1
-- 3. Therefore every n is true.
+3) Therefore every n is true.
 
 ```
 Prove that for any positive integer number n, n^3 + 2n is divisible by 3
