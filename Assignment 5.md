@@ -85,3 +85,48 @@ Since the contraposition E' is true, the original statement must also be true.
 
 Part 2
 
+```
+Prove by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
+```
+
+- 1) Base case: n = 1; 4\*1 - 3 = 1, 1(2\*1 - 1) = 1(1) = 1
+- 2) Test for n + 1: 
+ - n(2n - 1) + (4(n + 1) - 3) = (n + 1)(2(n + 1) - 1)
+ - 2n^2 - n + 4n + 4 - 3 = (n + 1)(2n + 1)
+ - 2n^2 +3n + 1 = 2n^2 + 3n + 1
+- 3) Therefore every n is true.
+
+```
+Prove that for any positive integer number n, n^3 + 2n is divisible by 3
+```
+
+- 1) Base case: n = 1; 1^3 + 2(1) = 1 + 2 = 3, which is divisible by 3
+- 2) Test for n + 1: n^3 + 2n = 3m
+ - (n + 1)^3 + 2(n + 1) = 3m
+ - (n + 1)(n + 1)(n + 1) + 2n + 2 = 3m
+ - (n^2 + 2n + 1)(n + 1) + 2n + 2 = 3m
+ - n^3 + n^2 + 2n^2 +2n + n + 1 + 2n + 2 = 3m
+ - n^3 + 3n^2 + 5n + 3 = 3m
+ - 3n^2 + 3n + 3 + n^3 +2n = 3m
+ - n^3 + 2n = 3m, so 3n^2 + 3n + 3 + 3m = 3m
+ - 3(n^2 + n + 1 + m) = 3m
+ - n^2 + n + 1 + m is still an integer, so n^2 + n + 1 + m = k
+ - 3(k) = 3m
+ - Both sides are divisible by 3
+- 3) Therefore every n is true.
+
+```
+Prove that for n >= 1, 9^n − 1 is divisible by 8 for all non-negative integers
+```
+
+- 1) Base case: n = 1; (9^1) - 1 = 9 - 1 = 8, which is divisible by 8
+- 2) Test for n + 1: 9^n - 1 = 8m
+ - 9^(n + 1) - 1 = 8m
+ - because x^(y + z) = x^y(x^z): 9(9^n) - 1 = 8m
+ - because 9^n = 8m + 1: 9(8m + 1) - 1 = 8m
+ - 72m + 8 = 8m
+ - 8(9m + 1) = 8m
+ - 9m + 1 is still an integer, so 9m + 1 = k
+ - 8(k) = 8m
+ - Both sides are divisible by 8
+- 3) Therefore every n is true.
