@@ -12,17 +12,13 @@ Irrational numbers are any numbers that cannot be expressed as a ratio of two in
 - 2 = (p/q)^2
 - 2 = p^2/q^2
 - 2q^2 = p^2
-- 2q\*q = p\*p
-- 2(2q) = 2p
-- 4q = 2p
-- 2q = p
-
-Now substitute p = 2q back into √2 = p/q:
-
-- √2 = 2q/q
-- √2 = 2
-
-The statement "√2 = 2" is false, so √2 is not rational. Therefore the negation of this statement is true and √2 is irrational.
+- q^2 is still an integer, so q^2 = m
+- 2m = p^2
+- p^2 is even, so p is even
+- substitute p = 2m into the equation: 2q^2 = (2m)^2
+- 2q^2 = 4m^2
+- q^2 = 2m^2, so q^2 is even, so q is even.
+- because p and q are even, they share a common factor and are not 
 
 ```
 If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.
