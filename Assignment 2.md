@@ -32,7 +32,7 @@ R v (P v Q)'              <=> (P v Q)' v R  Double Negation
 Give an interpretation to prove that the following wff is not valid: (Ǝx)A(x) ^ (Ǝx)B(x) -> (Ǝx)(A(x) ^ B(x))
 ```
 
-If "x" are Transformers, "A(x)" are Autobots, "B(x)" are Decepticons  
-"(∃x)A(x) ^ (∃x)B(x)" means that "some Transformers are Autobots and some Transformers are Decepticons"  
-"(∃x)(A(x) ^ B(x))" would mean that "some Transformers are Autobots and Decepticons",  
-which isn't true because Megatron would kill any Transformers that try to play both sides!
+If "x" are binary digits, "A(x)" are 0, "B(x)" are 1  
+"(∃x)A(x) ^ (∃x)B(x)" means that "some binary digits are 0 and some binary digits are 1"  
+"(∃x)(A(x) ^ B(x))" would mean that "some binary digits are 0 and 1",  
+which isn't true because binary digits can only be 0 or 1.
