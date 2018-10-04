@@ -52,11 +52,8 @@ Assume the Antecedent:
 Let there be one integer, x = 2m:
 - x + x^2 = 2m + (2m)^2
 - x + x^2 = 2m + 4m^2
-- x + x^2 = 2m + 4(m\*m)
-- x + x^2 = 2m + 4(2m)
-- x + x^2 = 2m + 8m
-- x + x^2 = 2(5m)
-- 5m is still an integer, so 5m = k
+- x + x^2 = 2(m + 2m^2)
+- m + 2m^2 is still an integer, so m + 2m^2 = k
 - x + x^2 = 2k
 - 2k is even, so x + x^2 is even
 
@@ -70,10 +67,8 @@ Prove the contraposition (E'): "If n is not odd (i.e. even), then n squared is n
 - let n = 2m
 - n^2 = (2m)^2
 - n^2 = 4(m^2)
-- n^2 = 4(m\*m)
-- n^2 = 4(2m)
-- n^2 = 2(4m)
-- 4m is still an integer, so 4m = k
+- n^2 = 2(2m^2)
+- 2m^2 is still an integer, so 2m^2 = k
 - n^2 = 2k
 - 2k is even, so n^2 is even
 
